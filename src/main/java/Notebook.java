@@ -35,7 +35,7 @@ public class Notebook {
         if (this.year >= 2018 && this.price <= 1000) {
             System.out.println("A relatively young notebook at a good price.");
         } else if (this.year <=2015 && this.price <= 600) {
-            System.out.println(("This notebook is a monument at an attractive price. "));
+            System.out.println("This notebook is a monument at an attractive price. ");
         }
 
     }
