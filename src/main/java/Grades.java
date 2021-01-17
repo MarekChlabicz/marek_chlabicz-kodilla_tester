@@ -2,13 +2,10 @@ public class Grades {
     private int[] grades;
     private int size;
     private int last;
-    private float average;
 
     public Grades() {
         this.grades = new int[10];
         this.size = 0;
-        this.last = last;
-
 
 
     }
@@ -33,6 +30,5 @@ public class Grades {
     }
 
     public void setAverage(float average) {
-        this.average = average;
     }
 }
